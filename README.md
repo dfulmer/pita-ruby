@@ -5,7 +5,7 @@
 Clone the repository  
 ```git clone [code from above]``` 
 
-cd into python-cli  
+cd into pita-ruby  
 ```cd pita-ruby```
 
 You may need to install the pdf-reader gem.
