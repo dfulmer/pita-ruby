@@ -13,4 +13,4 @@ You may need to install the pdf-reader gem.
 ```gem install pdf-reader```
 
 ## Run the program
-Put the PDF files of invoices into the /pdfin folder.
+Put the PDF files of invoices into the /pdfin folder before running the program.
