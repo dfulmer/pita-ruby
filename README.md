@@ -19,10 +19,7 @@ Give this command:
 ```ruby pita3.rb```
 
 The program reports each pdf file it processed and it places the EDI files it generates in the /ediout folder.  
-
-## Save the PDF files and the EDI files for future research
-Create a new quickshare folder in J:\QuickShare\dfulmer\pita and drag the ediout and pdfin folder in to a new folder named after today's date.  
-
+  
 ## Import the EDI files into Alma
 The EDI files can be imported into Alma two ways.
 
@@ -32,3 +29,6 @@ The EDI files can be imported into Alma two ways.
   * Put all the files in the /ediout folder in the /production/edi/amazedi folder of the Ex Libris Secure FTP Service
   * Then, start the EDI import from the AMAZ vendor record in Alma.
   * Vendors > All > AMAZ > Click AMAZ > click the EDI Information tab > click Run Now.
+  
+## Save the PDF files and the EDI files for future research
+Create a new quickshare folder in J:\QuickShare\dfulmer\pita and drag the ediout and pdfin folder in to a new folder named after today's date.
