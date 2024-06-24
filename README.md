@@ -18,7 +18,7 @@ Put the PDF file or files of invoices into the `pdfin` folder before running the
 Give this command:  
 ```ruby pita3.rb```
 
-The program reports each pdf file it processed and it places the EDI files it generates in the `ediout` folder.  
+The program reports each PDF file it processed and it places the EDI files it generates in the `ediout` folder.  
   
 ## Import the EDI files into Alma
 The EDI files can be imported into Alma two ways.
@@ -27,7 +27,7 @@ The EDI files can be imported into Alma two ways.
   * Vendors > All > AMAZ > Click AMAZ > click the EDI Information tab > click the folder icon next to Upload EDI > click on an EDI file > click Add and Execute
 * With the Ex Libris Secure FTP Service
   * Put all the files in the `ediout` folder in the `/production/edi/amazedi` folder of the Ex Libris Secure FTP Service
-  * Then, start the EDI import from the AMAZ vendor record in Alma.
+  * Then, start the EDI import job from the AMAZ vendor record in Alma.
   * Vendors > All > AMAZ > Click AMAZ > click the EDI Information tab > click Run Now.
   
 ## Save the PDF files and the EDI files for future research
