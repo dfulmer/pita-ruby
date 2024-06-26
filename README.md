@@ -16,7 +16,7 @@ You may need to install the pdf-reader gem.
 Put the PDF file or files of invoices into the `pdfin` folder before running the program.
 
 Give this command:  
-```ruby pita3.rb```
+```ruby pita_run.rb```
 
 The program reports each PDF file it processed and it places the EDI files it generates in the `ediout` folder.  
   
@@ -31,4 +31,4 @@ The EDI files can be imported into Alma two ways.
   * Vendors > All > AMAZ > Click AMAZ > click the EDI Information tab > click Run Now.
   
 ## Save the PDF files and the EDI files for future research
-Create a new quickshare folder in `J:\QuickShare\dfulmer\pita` and drag the `ediout` and `pdfin` folders in to a new folder named after today's date.
+Create a new quickshare folder in `J:\QuickShare\dfulmer\pita` and drag the `ediout` and `pdfin` folders in to a new folder named after today's date in the format yyyy-mm-dd.
