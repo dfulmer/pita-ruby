@@ -16,7 +16,7 @@ You may need to install the pdf-reader gem.
 Put the PDF file or files of invoices into the `pdfin` folder before running the program.
 
 Give this command:  
-```ruby pita3.rb```
+```ruby pita.rb```
 
 The program reports each PDF file it processed and it places the EDI files it generates in the `ediout` folder.  
   
