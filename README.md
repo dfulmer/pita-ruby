@@ -31,4 +31,4 @@ The EDI files can be imported into Alma two ways.
   * Vendors > All > AMAZ > Click AMAZ > click the EDI Information tab > click Run Now.
   
 ## Save the PDF files and the EDI files for future research
-Create a new quickshare folder in `J:\QuickShare\dfulmer\pita` and drag the `ediout` and `pdfin` folders in to a new folder named after today's date.
+Create a new quickshare folder in `J:\QuickShare\dfulmer\pita` and drag the `ediout` and `pdfin` folders in to a new folder named after today's date in the format yyyy-mm-dd.
