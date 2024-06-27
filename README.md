@@ -21,7 +21,7 @@ Give this command:
 The program reports each PDF file it processed and it places the EDI files it generates in the `ediout` folder.  
   
 ## Import the EDI files into Alma
-There are two ways to import the EDI files into Alma two ways.
+There are two ways to import the EDI files into Alma.
 
 * In the Alma UI
   * Vendors > All > AMAZ > Click AMAZ > click the EDI Information tab > click the folder icon next to Upload EDI > click on an EDI file > click Add and Execute
