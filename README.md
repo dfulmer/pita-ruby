@@ -32,3 +32,10 @@ There are two ways to import the EDI files into Alma.
   
 ## Save the PDF files and the EDI files for future research
 Create a new quickshare folder in `J:\QuickShare\dfulmer\pita` and drag the `ediout` and `pdfin` folders in to a new folder named after today's date in the format yyyy-mm-dd.
+
+## Cleanup
+Delete all the EDI files  
+```rm ediout/*edi```
+
+Delete all the PDF files  
+```rm pdfin/*pdf```
