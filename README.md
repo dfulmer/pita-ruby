@@ -36,3 +36,5 @@ Create a new quickshare folder in `J:\QuickShare\dfulmer\pita` and drag the `edi
 ## Cleanup
 Delete all the EDI files  
 ```rm ediout/*edi```
+
+Delete all the PDF files  
