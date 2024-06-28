@@ -38,4 +38,4 @@ Delete all the EDI files
 ```rm ediout/*edi```
 
 Delete all the PDF files  
-```rm pdfin/*pdf
+```rm pdfin/*pdf```
