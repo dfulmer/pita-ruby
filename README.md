@@ -40,4 +40,4 @@ Delete all the EDI files
 Delete all the PDF files  
 ```rm pdfin/*pdf```
 
-## Further Infomration
+## Further Information
