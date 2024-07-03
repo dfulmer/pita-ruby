@@ -2,3 +2,8 @@ ediout/*
 !ediout/.gitkeep
 pdfin/*
 !pdfin/.gitkeep
+.bash_history
+.idea
+.irb_history
+.cache
+.bundle
