@@ -41,7 +41,10 @@ Delete all the PDF files
 ```rm pdfin/*pdf```
 
 ## Using Docker
-
+Build container
+```
+docker-compose build
+```
 
 ## Further Information
 [Ex Libris EDI documentation](https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/010Alma_Online_Help_(English)/090Integrations_with_External_Systems/020Acquisitions/020Electronic_Data_Interchange_(EDI))
