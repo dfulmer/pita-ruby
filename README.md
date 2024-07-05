@@ -12,7 +12,7 @@ You may need to install the pdf-reader gem.
 
 ```gem install pdf-reader```
 
-## Run the program
+### Run the program
 Put the PDF file or files of invoices into the `pdfin` folder before running the program.
 
 Give this command:  
@@ -20,7 +20,7 @@ Give this command:
 
 The program reports each PDF file it processed and it places the EDI files it generates in the `ediout` folder.  
   
-## Import the EDI files into Alma
+### Import the EDI files into Alma
 There are two ways to import the EDI files into Alma.
 
 * In the Alma UI
@@ -30,15 +30,39 @@ There are two ways to import the EDI files into Alma.
   * Then, start the EDI import job from the AMAZ vendor record in Alma.
   * Vendors > All > AMAZ > Click AMAZ > click the EDI Information tab > click Run Now.
   
-## Save the PDF files and the EDI files for future research
+### Save the PDF files and the EDI files for future research
 Create a new quickshare folder in `J:\QuickShare\dfulmer\pita` and drag the `ediout` and `pdfin` folders in to a new folder named after today's date in the format yyyy-mm-dd.
 
-## Cleanup
+### Cleanup
 Delete all the EDI files  
 ```rm ediout/*edi```
 
 Delete all the PDF files  
 ```rm pdfin/*pdf```
+
+## Using Docker
+Build container
+```
+docker-compose build
+```
+
+Bundle install
+```
+docker-compose run --rm app bundle install
+```
+
+Start container
+```
+docker-compose up -d
+```
+
+### Run the program  
+Put the PDF file or files of invoices into the `pdfin` folder before running the program.
+```
+docker-compose run --rm app bundle exec ruby pita_run.rb
+```
+
+See above to 'Import the EDI files into Alma', 'Save the PDF files and the EDI files for future research' and 'Cleanup'.
 
 ## Further Information
 [Ex Libris EDI documentation](https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/010Alma_Online_Help_(English)/090Integrations_with_External_Systems/020Acquisitions/020Electronic_Data_Interchange_(EDI))
