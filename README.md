@@ -62,6 +62,8 @@ Put the PDF file or files of invoices into the `pdfin` folder before running the
 docker-compose run --rm app bundle exec ruby pita_run.rb
 ```
 
+See above to 'Import the EDI files into Alma', 'Save the PDF files and the EDI files for future research' and 'Cleanup'.
+
 ## Further Information
 [Ex Libris EDI documentation](https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/010Alma_Online_Help_(English)/090Integrations_with_External_Systems/020Acquisitions/020Electronic_Data_Interchange_(EDI))
 
