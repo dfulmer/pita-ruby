@@ -25,6 +25,8 @@ files.each  do |x|
     invoicen, invoiced, linepol, invoicet = y.match(/Invoice\s*?Invoice # ([\w-]*?) \|\s*(\w+ \d\d, \d\d\d\d).*PO # (POL-\d+).*?Amount due\s*\$\s?(\d+.\d+)/m).captures
     # Try to deal with a POL of "Morning!"
     #invoicen, invoiced, linepol, invoicet = y.match(/Invoice\s*?Invoice # ([\w-]*?) \|\s*(\w+ \d\d, \d\d\d\d).*PO # (POL-\d+|Morning!).*?Amount due\s*\$\s?(\d+.\d+)/m).captures 
+    # Try to deal with a POL of "500874511"
+    #invoicen, invoiced, linepol, invoicet = y.match(/Invoice\s*?Invoice # ([\w-]*?) \|\s*(\w+ \d\d, \d\d\d\d).*PO # (POL-\d+|500874511).*?Amount due\s*\$\s?(\d+.\d+)/m).captures
     #What we have Mmmmmm dd, yyyy; what we want for invoicenewd: yyyymmdd; what we want for invoicenewbriefd: yymmdd.
     invoicenewd = Date.parse(invoiced).strftime('%Y%m%d')
     invoicenewbriefd = Date.parse(invoiced).strftime('%y%m%d')
