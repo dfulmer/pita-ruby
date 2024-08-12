@@ -55,6 +55,7 @@ files.each  do |x|
       #linepricematch = /(\d+)y?\s+\$[\d.]+\s+\$([\d.]+)\s+[\d.]+%\s+/.match(z)
       # The following modification to the line regex was for an issue where there was an 'l' (the letter L as in llama) after the quantity.
       #linepricematch = /(\d+)l?\s+\$[\d.]+\s+\$([\d.]+)\s+[\d.]+%\s+/.match(z)
+      #linepricematch = /(\d+)r?\s+\$[\d.]+\s+\$([\d.]+)\s+[\d.]+%\s+/.match(z)
       linepricematch = /(\d+)\s+\$[\d.]+\s+\$([\d.]+)\s+[\d.]+%\s+/.match(z)
       qty = linepricematch[1]
       lineprice = linepricematch[2]
